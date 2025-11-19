@@ -1,0 +1,67 @@
+body{
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+
+    background-color: rgb(177, 177, 255);
+}
+nav > section{
+    display: grid;
+     grid-template-columns: 200px 1fr ;
+}
+div#MenuCima {
+    background-color:aqua;
+    display: grid;
+    align-items: center;
+
+   
+}
+div#MenuCima > h3{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 25px;
+
+}
+div#MenuCima:hover > h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+div#MenuCima > ul{
+    display: none ;
+    
+}
+div#MenuCima:hover > ul{
+    display: block;
+    
+}
+
+div#OpcoesCima{
+    background-color: blueviolet;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+
+}
+div#OpcoesCima > span{
+    background-color: yellow;
+    text-align: center;
+
+    padding: 30px;
+    margin: 2px;
+    border-radius: 10px;
+}
+div#OpcoesCima a{
+
+    text-decoration: none;
+    font-size: 25px;
+}
+    
+div#CaixaPesquisa{
+padding: 10px;
+    background-color: brown;
+    
+}
